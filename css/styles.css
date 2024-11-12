@@ -45,7 +45,7 @@
   --bs-light: #f5f5f7; /* Light Background */
   --bs-dark: #1d1d1f; /* Dark Background */
 
-  --bs-primary-rgb: 26, 188, 156;
+  --bs-primary-rgb: 248, 248, 1;
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -72,7 +72,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: linear-gradient(to right, #f78f1f, #ffd8a6);
   --bs-border-width: 0.125rem;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -11171,7 +11171,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2.5rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11278,7 +11278,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #7e7669b8;
+    background: #faaa1a45;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
@@ -11451,4 +11451,11 @@ html {
   background-color: #0056b3; /* darker shade on hover */
   transform: scale(1.05); /* slight grow effect */
   transition: all 0.3s ease; /* smooth transition */
+}
+
+.umroh-font {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* Adjust weight to match logo style */
+  color: #29388b; /* Navy blue color */
+  font-size: 48px; /* Adjust size as needed */
 }
