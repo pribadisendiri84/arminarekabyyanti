@@ -95,6 +95,15 @@
   box-sizing: border-box;
 }
 
+/*! if you want shor about change display */
+#about {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
