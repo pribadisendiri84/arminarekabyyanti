@@ -104,6 +104,10 @@
   display: none;
 }
 
+#fasilitas2 {
+  display: true;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
