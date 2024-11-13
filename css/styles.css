@@ -11517,3 +11517,18 @@ html {
     transform: scale(1.15);
   }
 }
+
+.umrah {
+  font-size: 50px;
+  font-weight: bold;
+  color: #194b74;
+  margin-bottom: 5px;
+}
+
+.countdown {
+  background-color: #194b74;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
