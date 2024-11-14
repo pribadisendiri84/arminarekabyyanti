@@ -1,0 +1,28 @@
+{
+  "facility": {
+    "title": "Fasilitas",
+    "image1": "assets/img/fasilitas/fasilitas1.png",
+    "image2": "assets/img/fasilitas/fasilitas2.png",
+    "umrahDetails": {
+      "title": "Umrah",
+      "countdown": "9D RAMADHAN",
+      "departureDate": "04 MARET 2025 CKG",
+      "madinahHotels": ["Al Haram (Setaraf)", "Dallah Taibah (Setaraf)"],
+      "mekkahHotels": ["Rayyana Hotel (Setaraf)", "Ajyad Mak (Setaraf)"],
+      "include": [
+        "Tiket pesawat PP",
+        "Perlengkapan & Handling",
+        "Hotel, Makan 3x sehari",
+        "Akomodasi Bus & Snack",
+        "Zam Zam 5 Liter"
+      ],
+      "exclude": ["Paspor", "Vaksin", "Pengeluaran Pribadi", "Tiket add on PP"],
+      "packages": [
+        { "type": "Quad", "price": "IDR 44.100.000" },
+        { "type": "Triple", "price": "IDR 46.000.000" },
+        { "type": "Double", "price": "IDR 50.300.000" }
+      ]
+    },
+    "disclaimer": "* Harga dapat berubah sewaktu-waktu sesuai kebijakan perusahaan."
+  }
+}
